@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AdamPaterson\OAuth2\Client\Provider;
+namespace AudiencePlayer\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 

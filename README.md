@@ -20,7 +20,7 @@ composer require adam-paterson/oauth2-stripe
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using `\AdamPaterson\OAuth2\Client\Provider\Stripe` as the provider.
+Usage is the same as The League's OAuth client, using `\AudiencePlayer\OAuth2\Client\Provider\Stripe` as the provider.
 
 ### Authorization Code Flow
 
@@ -28,7 +28,7 @@ Usage is the same as The League's OAuth client, using `\AdamPaterson\OAuth2\Clie
 <?php
 session_start();
 
-$provider = new \AdamPaterson\OAuth2\Client\Provider\Stripe([
+$provider = new \AudiencePlayer\OAuth2\Client\Provider\Stripe([
     'clientId'          => '{stripe-client-id}',
     'clientSecret'      => '{stripe-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url',

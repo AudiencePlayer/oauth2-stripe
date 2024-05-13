@@ -1,6 +1,6 @@
 <?php
 
-namespace AdamPaterson\OAuth2\Client\Provider;
+namespace AudiencePlayer\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Grant\AbstractGrant;
 use League\OAuth2\Client\Provider\AbstractProvider;
@@ -135,4 +135,11 @@ class Stripe extends AbstractProvider
 
         return $this->getParsedResponse($request);
     }
+
+
+    protected function getAuthorizationHeaders($token = null)
+    {
+        return [];
+    }
+
 }

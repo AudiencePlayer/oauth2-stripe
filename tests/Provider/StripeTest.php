@@ -1,7 +1,7 @@
 <?php
-namespace AdamPaterson\OAuth2\Client\Test\Provider;
+namespace AudiencePlayer\OAuth2\Client\Test\Provider;
 
-use AdamPaterson\OAuth2\Client\Provider\Stripe;
+use AudiencePlayer\OAuth2\Client\Provider\Stripe;
 use Mockery as m;
 use ReflectionClass;
 
@@ -11,7 +11,7 @@ class StripeTest extends \PHPUnit_Framework_TestCase
 
     protected static function getMethod($name)
     {
-        $class = new ReflectionClass('AdamPaterson\OAuth2\Client\Provider\Stripe');
+        $class = new ReflectionClass('AudiencePlayer\OAuth2\Client\Provider\Stripe');
         $method = $class->getMethod($name);
         $method->setAccessible(true);
         return $method;

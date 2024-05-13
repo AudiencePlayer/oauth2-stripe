@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AdamPaterson\\OAuth2\\Client\\": "src/"
+            "AudiencePlayer\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AdamPaterson\\OAuth2\\Client\\Test\\": "test/src/"
+            "AudiencePlayer\\OAuth2\\Client\\Test\\": "test/src/"
         }
     }
 }
