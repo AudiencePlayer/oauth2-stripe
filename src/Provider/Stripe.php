@@ -139,7 +139,7 @@ class Stripe extends AbstractProvider
 
     protected function getAuthorizationHeaders($token = null)
     {
-        return [];
+        return ['Authorization' => 'Basic ' . base64_encode($this->clientSecret)];
     }
 
 }
